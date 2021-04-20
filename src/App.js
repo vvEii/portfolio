@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import Resume from './pages/Resume';
 
 function App() {
   return (
@@ -13,11 +14,8 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/projects' component={Projects} />
+          <Route path='/resume' component={Resume} />
           <Route path='/contact' component={Contact} />
-
-          {/*
-         <Route path='/resume' component={} /> 
-        */}
         </Switch>
       </div>
     </Router>
