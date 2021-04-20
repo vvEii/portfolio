@@ -9,8 +9,10 @@ function App() {
         <Nav />
         <Switch>
           <Route path='/' exact component={Home} />
-          {/* <Route path='/programs' component={} />
-        <Route path='/contact' component={} /> */}
+          {/* <Route path='/projects' component={} />
+          <Route path='/contact' component={} /> 
+         <Route path='/resume' component={} /> 
+        */}
         </Switch>
       </div>
     </Router>
