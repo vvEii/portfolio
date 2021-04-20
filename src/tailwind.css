@@ -1,3 +1,5 @@
+/* Command to build index.css file */
+/* npx tailwindcss build src/tailwind.css -o src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
