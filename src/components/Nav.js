@@ -3,8 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <nav className='' role='navigation'>
-      <Link to='/' className=''>
+    <nav
+      className='flex justify-between items-center w-screen px-8 py-12'
+      role='navigation'
+    >
+      <Link to='/' className='text-4xl w-4/12'>
         Cooper Shang
       </Link>
 
@@ -30,7 +33,7 @@ const Nav = () => {
         </svg>
       </Link> */}
 
-      <div className=''>
+      <div className='flex items-center text-xl justify-between w-3/12'>
         <Link className='' to='/projects'>
           Projects
         </Link>
