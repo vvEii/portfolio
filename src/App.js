@@ -2,6 +2,8 @@ import './App.css';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Nav from './components/Nav';
 import Home from './pages/Home';
+import Contact from './pages/Contact';
+
 function App() {
   return (
     <Router>
@@ -9,8 +11,8 @@ function App() {
         <Nav />
         <Switch>
           <Route path='/' exact component={Home} />
+          <Route path='/contact' component={Contact} />
           {/* <Route path='/projects' component={} />
-          <Route path='/contact' component={} /> 
          <Route path='/resume' component={} /> 
         */}
         </Switch>
