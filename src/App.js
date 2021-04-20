@@ -1,15 +1,18 @@
 import './App.css';
-import { Route, Switch } from 'react-router';
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import Nav from './components/Nav';
 
 function App() {
   return (
-    <div className='bg-gray-darkest min-h-screen'>
-      <Switch>
-        {/* <Route path='/' exact component={} /> */}
-        {/* <Route path='/programs' component={} />
+    <Router>
+      <div className='bg-gray-darkest min-h-screen'>
+        <Switch>
+          <Route path='/' exact component={Nav} />
+          {/* <Route path='/programs' component={} />
         <Route path='/contact' component={} /> */}
-      </Switch>
-    </div>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
