@@ -2,10 +2,10 @@ import React from 'react';
 
 const Card = () => {
   return (
-    <div className='flex flex-col items-start justify-items-center'>
-      <div className='text-4xl text-purple-400'>Project Title</div>
-      <div className='text-2xl text-purple-400'>01/04/2021</div>
-      <div className='text-lg text-purple-400'>
+    <div className='flex flex-col items-start justify-items-center space-y-10 py-10 px-8 rounded-lg bg-gray-regular'>
+      <div className='text-4xl text-purple-500'>Project Title</div>
+      <div className='text-2xl text-purple-500'>01/04/2021</div>
+      <div className='text-lg text-purple-500'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae
         turpis. Arcu cursus vitae congue mauris. Risus at ultrices mi tempus
