@@ -1,7 +1,12 @@
 import React from 'react';
+import ResumeFrame from '../components/ResumeFrame';
 
 const Resume = () => {
-  return <div className='text-gray-light text-8xl'>Resume</div>;
+  return (
+    <div className='px-8'>
+      <ResumeFrame />
+    </div>
+  );
 };
 
 export default Resume;
