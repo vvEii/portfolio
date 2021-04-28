@@ -7,8 +7,12 @@ const Nav = () => {
       className='flex justify-between items-center w-screen px-8 py-12'
       role='navigation'
     >
-      <Link to='/' className='text-4xl w-4/12'>
-        Cooper Shang
+      <Link
+        to='/'
+        className='text-4xl w-4/12 flex flex-col font-black leading-7 text-gray-light'
+      >
+        <span>COOPER</span>
+        <span>SHANG</span>
       </Link>
 
       {/* <Link to='/mobile-menu' className=''>
